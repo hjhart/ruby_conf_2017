@@ -28,3 +28,10 @@ When MRI switches between threads it's called context switching.
 Ruby will switch threads everytime a method is called.
 GIL is not here for your convenience, it is for the convenience of MRI developers.
 
+# JIT Compiler - k0kubun
+
+JIT is Just-in-time commpiler.
+Ruby gets parsed into a parser which gets written to bytecode.
+Runs within a stack-based ruby VM.
+github.com/k0kubun/yarv-mjit
+
